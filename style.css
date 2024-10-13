@@ -76,24 +76,43 @@ nav ul li:hover {
   transition: 0.2s ease-in;
 }
 .hero-section {
-  background-image: url(images/hero_image.png);
-  height: 90vh;
+  background-image: url(https://media.giphy.com/media/hVfj148Hsqfn7aXu5j/giphy.gif
+  );
+  height: 130vh;
   display: grid;
   color: white;
   place-items: center;
   text-align: center;
+  background-color: rgba(0, 0, 200, 0.5);
+}
+
+#hero img {
+  width: 1150px;
+  height: auto;
+  opacity: 80%;
 }
 
 .hero-section .container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
+  margin: 0;
 }
 .hero-section h1 {
   font-size: 96px;
+  color: black;
+  /* padding-bottom: 5px; */
 }
 .hero-section h3 {
   font-size: 32px;
+  color: black;
+  padding-top: 0px;
+}
+
+.hero-section p {
+  color: black;
+  font-size: 15px;
+  font-weight: 100px;
 }
 
 .music-section {
@@ -153,7 +172,15 @@ nav ul li:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.read-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #012a9c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
 .gift-section {
   display: flex;
   justify-content: center;
